@@ -1,21 +1,13 @@
+import { useState } from 'react';
+import Quote from '../features/quote/Quote';
 import './App.css';
 
 function App() {
+  const [quote, setQuote] = useState({ statement: 'Example', author: 'Sample Ie.' });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Quote statement={quote.statement} author={quote.author} />
     </div>
   );
 }
