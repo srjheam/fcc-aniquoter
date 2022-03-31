@@ -11,6 +11,7 @@ function GetQuote(props) {
     setIsFetching(true);
 
     const randomQuote = await getRandom();
+    await new Promise(r => setTimeout(r, 300)); // 'Sleep' for 300ms
     props.onGet(randomQuote);
 
     setIsFetching(false);
