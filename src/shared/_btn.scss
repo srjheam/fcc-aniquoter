@@ -4,10 +4,21 @@
   justify-content: center;
   min-width: 40px;
   min-height: 40px;
+  font-weight: 500;
   text-decoration: none;
   color: white;
-  background-color: greenyellow;
+  background: green;
   border-radius: 8px;
   border: none;
+  transition: 300ms;
   box-sizing: border-box;
+
+  &:hover {
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3);
+  }
+
+  &:active {
+    box-shadow: none;
+  }
 }
+

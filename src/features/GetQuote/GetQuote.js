@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import { getRandom } from './GetQuoteAPI';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import './GetQuote.scss';
 
 function GetQuote(props) {
   const [isFetching, setIsFetching] = useState(false);
@@ -14,7 +17,9 @@ function GetQuote(props) {
   };
 
   return (
-    <button className='GetQuote' onClick={handleOnClick}>New Quote</button>
+    <button className='GetQuote btn' onClick={handleOnClick}>
+      {isFetching ? <FontAwesomeIcon icon={solid('circle-notch')} className='fa-spin' /> : 'New Quote'}
+    </button>
   );
 }
 
