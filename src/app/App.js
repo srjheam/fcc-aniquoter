@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Quote from '../features/quote/Quote';
 import GetQuote from '../features/GetQuote/GetQuote';
+import QuoteShare from '../features/QuoteShare/QuoteShare';
 import { getRandom } from '../features/GetQuote/GetQuoteAPI';
 import './App.css';
 
@@ -24,6 +25,7 @@ function App() {
       <Quote quote={quote} character={character} anime={anime} />
       <div>
         <GetQuote onGet={splitAPIResponse} />
+        <QuoteShare quote={quote} character={character} anime={anime} />
       </div>
     </div>
   );
