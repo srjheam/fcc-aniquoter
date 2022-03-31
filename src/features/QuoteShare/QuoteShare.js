@@ -4,7 +4,7 @@ function QuoteShare(props) {
   const URL = 'https://srjheam.github.io/fcc-random-quote-machine';
 
   return (
-    <div>
+    <div className='QuoteShare'>
       <a
         href={`https://twitter.com/intent/tweet?text=${TEXT}&url=${URL}`}
         target='_blank'

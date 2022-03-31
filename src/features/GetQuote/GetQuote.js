@@ -14,7 +14,7 @@ function GetQuote(props) {
   };
 
   return (
-    <button onClick={handleOnClick}>New Quote</button>
+    <button className='GetQuote' onClick={handleOnClick}>New Quote</button>
   );
 }
 

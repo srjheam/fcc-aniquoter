@@ -3,7 +3,7 @@ import Quote from '../features/quote/Quote';
 import GetQuote from '../features/GetQuote/GetQuote';
 import QuoteShare from '../features/QuoteShare/QuoteShare';
 import { getRandom } from '../features/GetQuote/GetQuoteAPI';
-import './App.css';
+import './App.scss';
 
 function App() {
   const splitAPIResponse = (json) => {
@@ -21,11 +21,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Quote quote={quote} character={character} anime={anime} />
-      <div>
-        <GetQuote onGet={splitAPIResponse} />
-        <QuoteShare quote={quote} character={character} anime={anime} />
+    <div className='App'>
+      <div className='App-wrapper'>
+        <Quote quote={quote} character={character} anime={anime} />
+        <div className='App-bottom'>
+          <GetQuote onGet={splitAPIResponse} />
+          <QuoteShare quote={quote} character={character} anime={anime} />
+        </div>
       </div>
     </div>
   );

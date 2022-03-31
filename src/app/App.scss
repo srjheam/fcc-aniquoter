@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  .App-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: 28.125rem;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px #00000033;
+
+    .Quote {
+      flex-grow: 1;
+    }
+
+    .App-bottom {
+      display: flex;
+      
+      .QuoteShare {
+        margin-left: auto;
+      }
+    }
+  }
+}

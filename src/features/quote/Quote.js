@@ -1,6 +1,6 @@
 function Quote(props) {
   return (
-    <div>
+    <div className='Quote'>
       <span>“</span>
       <p>{props.quote}</p>
       <p>
