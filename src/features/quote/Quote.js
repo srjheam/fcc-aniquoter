@@ -2,8 +2,11 @@ function Quote(props) {
   return (
     <div>
       <span>“</span>
-      <p>{props.statement}</p>
-      <span>{props.author}</span>
+      <p>{props.quote}</p>
+      <p>
+        ― <em>{props.character}</em><br />
+        from {props.anime}
+      </p>
       <span>”</span>
     </div>
   );

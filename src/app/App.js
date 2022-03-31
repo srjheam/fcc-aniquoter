@@ -1,13 +1,30 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Quote from '../features/quote/Quote';
+import GetQuote from '../features/GetQuote/GetQuote';
+import { getRandom } from '../features/GetQuote/GetQuoteAPI';
 import './App.css';
 
 function App() {
-  const [quote, setQuote] = useState({ statement: 'Example', author: 'Sample Ie.' });
+  const splitAPIResponse = (json) => {
+    setQuote(json.quote);
+    setCharacter(json.character);
+    setAnime(json.anime);
+  };
+
+  const [quote, setQuote] = useState('');
+  const [character, setCharacter] = useState('');
+  const [anime, setAnime] = useState('');
+  useEffect(() => {
+    const fetchQuote = async () => splitAPIResponse(await getRandom());
+    fetchQuote();
+  }, []);
 
   return (
     <div className="App">
-      <Quote statement={quote.statement} author={quote.author} />
+      <Quote quote={quote} character={character} anime={anime} />
+      <div>
+        <GetQuote onGet={splitAPIResponse} />
+      </div>
     </div>
   );
 }
