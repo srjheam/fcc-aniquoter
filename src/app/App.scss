@@ -1,6 +1,7 @@
 @use '../shared/variables';
 
 .App {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,5 +33,11 @@
         margin-left: auto;
       }
     }
+  }
+  
+  .SocialLinks {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
   }
 }

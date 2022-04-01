@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Quote from '../features/quote/Quote';
 import GetQuote from '../features/GetQuote/GetQuote';
 import QuoteShare from '../features/QuoteShare/QuoteShare';
+import SocialLinks from '../features/SocialLinks/SocialLinks';
 import { getRandom } from '../features/GetQuote/GetQuoteAPI';
 import './App.scss';
 
@@ -40,6 +41,7 @@ function App() {
           <QuoteShare quote={quote} character={character} anime={anime} />
         </div>
       </div>
+      <SocialLinks />
     </div>
   );
 }
