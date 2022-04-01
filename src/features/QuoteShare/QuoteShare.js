@@ -1,14 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { solid, brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 import './QuoteShare.scss';
 
 function QuoteShare(props) {
   const NEW_LINE = '%0a'
   const TEXT = `“${props.quote}”${NEW_LINE}― ${props.character}, from ${props.anime}${NEW_LINE}${NEW_LINE}`
   const URL = 'https://srjheam.github.io/fcc-random-quote-machine';
-
-  const FA_SIZE = '2xl';
-
+  
   return (
     <div className='QuoteShare'>
       <a
@@ -17,7 +15,7 @@ function QuoteShare(props) {
         target='_blank'
         rel='noreferrer noopener'
       >
-        <FontAwesomeIcon icon={brands('twitter')} size={FA_SIZE} />
+        <FontAwesomeIcon icon={brands('twitter')} size='xl' />
       </a>
       <a
         className='btn'
@@ -25,7 +23,7 @@ function QuoteShare(props) {
         target='_blank'
         rel='noreferrer noopener'
       >
-        <FontAwesomeIcon icon={brands('telegram-plane')} size={FA_SIZE} />
+        <FontAwesomeIcon icon={solid('paper-plane')} size='xl' />
       </a>
       <a
         className='btn'
@@ -33,7 +31,7 @@ function QuoteShare(props) {
         target='_blank'
         rel='noreferrer noopener'
       >
-        <FontAwesomeIcon icon={brands('whatsapp')} size={FA_SIZE} />
+        <FontAwesomeIcon icon={brands('whatsapp')} size='2xl' />
       </a>
     </div>
   );
