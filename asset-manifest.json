@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fcc-aniquoter/static/css/main.3527756a.css",
+    "main.css": "/fcc-aniquoter/static/css/main.65fc6c32.css",
     "main.js": "/fcc-aniquoter/static/js/main.e6a16528.js",
     "static/js/787.e1a6aa76.chunk.js": "/fcc-aniquoter/static/js/787.e1a6aa76.chunk.js",
     "index.html": "/fcc-aniquoter/index.html",
-    "main.3527756a.css.map": "/fcc-aniquoter/static/css/main.3527756a.css.map",
+    "main.65fc6c32.css.map": "/fcc-aniquoter/static/css/main.65fc6c32.css.map",
     "main.e6a16528.js.map": "/fcc-aniquoter/static/js/main.e6a16528.js.map",
     "787.e1a6aa76.chunk.js.map": "/fcc-aniquoter/static/js/787.e1a6aa76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3527756a.css",
+    "static/css/main.65fc6c32.css",
     "static/js/main.e6a16528.js"
   ]
 }
