@@ -9,10 +9,13 @@
     display: flex;
     flex-direction: column;
     width: 50rem;
+    max-width: 100vw;
     height: 28.125rem;
+    max-height: 100vh;
     padding: 16px;
     border-radius: 8px;
     box-shadow: 1px 1px 8px #00000033;
+    box-sizing: border-box;
 
     .Quote {
       flex-grow: 1;
