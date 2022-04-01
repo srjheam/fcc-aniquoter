@@ -1,5 +1,5 @@
 {
-  "name": "fcc-random-quote-machine",
+  "name": "fcc-aniquoter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,5 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://srjheam.github.io/fcc-random-quote-machine"
+  "homepage": "https://srjheam.github.io/fcc-aniquoter"
 }

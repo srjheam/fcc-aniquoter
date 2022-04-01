@@ -1,8 +1,8 @@
-# Random Quoter Project
+# AniQuoter Project
 
 This is my submission for the [freeCodeCamp](freeCodeCamp.org) front end development libraries course random quote machine project.
 
-You may check it out on [this project's GitHub Pages](https://srjheam.github.io/fcc-random-quote-machine).
+You may check it out on [this project's GitHub Pages](https://srjheam.github.io/fcc-aniquoter).
 
 ## Built With
 
@@ -13,13 +13,13 @@ You may check it out on [this project's GitHub Pages](https://srjheam.github.io/
 1. Clone the repo
 
     ```bash
-    git clone https://github.com/srjheam/fcc-random-quote-machine.git
+    git clone https://github.com/srjheam/fcc-aniquoter.git
     ```
 
 2. Head to the repo directory
 
     ```bash
-    cd fcc-random-quote-machine/
+    cd fcc-aniquoter/
     ```
 
 3. Install NPM packages

@@ -5,7 +5,7 @@ import './QuoteShare.scss';
 function QuoteShare(props) {
   const NEW_LINE = '%0a'
   const TEXT = `“${props.quote}”${NEW_LINE}― ${props.character}, from ${props.anime}${NEW_LINE}${NEW_LINE}`
-  const URL = 'https://srjheam.github.io/fcc-random-quote-machine';
+  const URL = 'https://srjheam.github.io/fcc-aniquoter';
   
   return (
     <div className='QuoteShare'>
