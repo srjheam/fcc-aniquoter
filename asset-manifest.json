@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fcc-random-quote-machine/static/css/main.4cde08d2.css",
-    "main.js": "/fcc-random-quote-machine/static/js/main.d5cec8f4.js",
-    "static/js/787.e703b9c7.chunk.js": "/fcc-random-quote-machine/static/js/787.e703b9c7.chunk.js",
-    "index.html": "/fcc-random-quote-machine/index.html",
-    "main.4cde08d2.css.map": "/fcc-random-quote-machine/static/css/main.4cde08d2.css.map",
-    "main.d5cec8f4.js.map": "/fcc-random-quote-machine/static/js/main.d5cec8f4.js.map",
-    "787.e703b9c7.chunk.js.map": "/fcc-random-quote-machine/static/js/787.e703b9c7.chunk.js.map"
+    "main.css": "/fcc-aniquoter/static/css/main.3527756a.css",
+    "main.js": "/fcc-aniquoter/static/js/main.e6a16528.js",
+    "static/js/787.e1a6aa76.chunk.js": "/fcc-aniquoter/static/js/787.e1a6aa76.chunk.js",
+    "index.html": "/fcc-aniquoter/index.html",
+    "main.3527756a.css.map": "/fcc-aniquoter/static/css/main.3527756a.css.map",
+    "main.e6a16528.js.map": "/fcc-aniquoter/static/js/main.e6a16528.js.map",
+    "787.e1a6aa76.chunk.js.map": "/fcc-aniquoter/static/js/787.e1a6aa76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cde08d2.css",
-    "static/js/main.d5cec8f4.js"
+    "static/css/main.3527756a.css",
+    "static/js/main.e6a16528.js"
   ]
 }
