@@ -57,3 +57,32 @@
     }
   }
 }
+
+.placeholder {
+  .placeholder-item {
+    height: 1em;
+    margin-top: .2em;
+    $background-fallback: #ddd;
+    $background: linear-gradient(to right, #eee 2%, #ddd 18%, #eee 33%);
+    background: $background;
+    background-size: 1300px;
+    color: $background-fallback;
+    animation: 1.7s linear infinite forwards backgroundAnimation;
+
+  }
+
+  .quote-authorship {
+    .placeholder-item {
+      margin-left: auto;
+    }
+  }
+
+  svg {
+    background: none !important;
+  }
+
+  @keyframes backgroundAnimation {
+    from { background-position: -650px 0; }
+    to { background-position: 650px 0; }
+  }
+}
