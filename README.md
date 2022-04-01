@@ -7,6 +7,10 @@ You may check it out on [this project's GitHub Pages](https://srjheam.github.io/
 ## Built With
 
 * [React.js](https://reactjs.org)
+* [Animechan](https://animechan.vercel.app) (API)
+* [Scss](https://sass-lang.com)
+* [Font Awesome](https://fontawesome.com)
+* [Babel](https://babeljs.io)
 
 ## Getting Started
 
