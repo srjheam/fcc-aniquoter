@@ -9,13 +9,14 @@
   min-height: 100vh;
   background: variables.$primaryColor;
   transition: background 300ms;
-
+  
   .App-wrapper {
     display: flex;
     flex-direction: column;
     gap: 32px;
     width: 50rem;
     min-height: 20rem;
+    margin: 8px 0 64px 0;
     padding: 16px;
     background: white;
     border-radius: 8px;
