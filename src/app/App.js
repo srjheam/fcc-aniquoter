@@ -24,7 +24,7 @@ function App() {
     <div className='App'>
       <div className='App-wrapper'>
         <Quote quote={quote} character={character} anime={anime} />
-        <div className='App-bottom'>
+        <div className='App-bottom' style={{ pointerEvents: !quote && "none" }}>
           <GetQuote onGet={splitAPIResponse} />
           <QuoteShare quote={quote} character={character} anime={anime} />
         </div>
