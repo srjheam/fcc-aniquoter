@@ -1,0 +1,5 @@
+:root {
+  --primary-color: hsl(344, 0%, 30%); // Fallback value
+}
+
+$primaryColor: var(--primary-color);

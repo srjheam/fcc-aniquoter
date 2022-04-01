@@ -1,9 +1,13 @@
+@use '../shared/variables';
+
 .App {
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
+  background: variables.$primaryColor;
+  transition: background 300ms;
 
   .App-wrapper {
     display: flex;
@@ -12,6 +16,7 @@
     width: 50rem;
     min-height: 20rem;
     padding: 16px;
+    background: white;
     border-radius: 8px;
     box-shadow: 1px 1px 8px #00000033;
     box-sizing: border-box;

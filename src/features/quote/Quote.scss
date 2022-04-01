@@ -1,8 +1,11 @@
+@use '../../shared/variables';
+
 .Quote {
   display: grid;
   grid-template-rows: min-content auto;
   grid-template-columns: auto 1fr auto;
   gap: 0 8px;
+  color: variables.$primaryColor;
   
   p {
     margin: 0;
