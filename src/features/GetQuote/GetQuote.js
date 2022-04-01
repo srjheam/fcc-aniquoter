@@ -18,7 +18,7 @@ function GetQuote(props) {
   };
 
   return (
-    <button className='GetQuote btn' onClick={handleOnClick}>
+    <button className='GetQuote btn' onClick={handleOnClick} disabled={isFetching}>
       {isFetching ? <FontAwesomeIcon icon={solid('circle-notch')} className='fa-spin' /> : 'New Quote'}
     </button>
   );
